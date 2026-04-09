@@ -1,4 +1,4 @@
-bot.pyfrom telegram import Update, ReplyKeyboardMarkup, KeyboardButton
+from telegram import Update, ReplyKeyboardMarkup, KeyboardButton
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 TOKEN = "8623357230:AAEj96-UlfkfDlVbb32z-yzmnSxNVXL3vPk"
